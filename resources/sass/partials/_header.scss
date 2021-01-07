@@ -1,12 +1,39 @@
 // Top header
 .top-header {
+  height: 25px;
+  font-size: .8rem;
+  font-weight: 600;
   background-color: $brand-color;
+  a {
+    color: $white;
+  }
+  .container,
+  ul {
+    height: 100%;
+  }
 }
 
 // Bottom header
 .bottom-header {
+  max-height: 115px;
   padding: 1rem;
+  .wrapper-logo {
+    max-width: 80px;
+  }
   .main-menu li {
-    margin: 0 5px;
+    margin: 0 10px;
+    a {
+      font-size: .95rem;
+      font-weight: 600;
+      color: $secondary-color;
+    }
+  }
+  .search-bar {
+    padding: .3rem 0;
+    border: 0;
+    border-bottom: 2px solid $brand-color;
+    &::placeholder {
+      font-weight: 600;
+    }
   }
 }

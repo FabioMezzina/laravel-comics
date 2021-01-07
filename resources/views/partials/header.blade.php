@@ -2,11 +2,11 @@
   {{-- Top header --}}
   <section class="top-header">
     <div class="container">
-      <ul class="flex jc-end">
-        <li>
+      <ul class="flex jc-end ai-center">
+        <li class="ml-5">
           <a href="#">DC POWER VISA</a>
         </li>
-        <li>
+        <li class="ml-5">
           <a href="#">ADDITIONAL DC SITES</a>
         </li>
       </ul>
@@ -75,7 +75,7 @@
         </li>
       </ul>
       {{-- Search bar --}}
-      <input type="text" placeholder="Search">
+      <input class="search-bar text-right" type="text" placeholder="Search">
     </div>
   </nav>
 </header>

@@ -60,9 +60,14 @@
 // Image responsive
 img {
   max-width: 100%;
+  height: auto;
 }
 
 // Other
+a {
+  text-decoration: none;
+}
+
 ul {
   list-style: none;
 }
