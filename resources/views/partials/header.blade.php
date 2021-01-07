@@ -78,10 +78,4 @@
       <input type="text" placeholder="Search">
     </div>
   </nav>
-  {{-- Hero --}}
-  <div class="hero">
-    <div class="container-small">
-      <img src="{{ asset('images/cover-home.jpg') }}" alt="Cover home">
-    </div>
-  </div>
 </header>

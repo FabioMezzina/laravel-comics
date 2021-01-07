@@ -215,6 +215,18 @@ ul {
   margin: 0 5px;
 }
 
+.home-main {
+  background-color: #1c1c1c;
+}
+.home-main .comic-list {
+  padding: 1rem;
+}
+.home-main .comic-list .comic-item {
+  margin: 1%;
+  max-width: 13%;
+  overflow-wrap: break-word;
+}
+
 .hero {
   position: relative;
   height: 450px;
@@ -239,16 +251,4 @@ ul {
   position: absolute;
   bottom: 15px;
   z-index: 2;
-}
-
-.home-main {
-  background-color: #1c1c1c;
-}
-.home-main .comic-list {
-  padding: 1rem;
-}
-.home-main .comic-list .comic-item {
-  margin: 1%;
-  max-width: 13%;
-  overflow-wrap: break-word;
 }
