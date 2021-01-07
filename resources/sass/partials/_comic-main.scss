@@ -1,0 +1,81 @@
+// Comic detail section
+.comic-detail {
+  flex-basis: 65%;
+  h2 {
+    color: $detail-color;
+  }
+  .price {
+    font-size: .9rem;
+    color: $white;
+    background-color: $price-color;
+    border-bottom: 1px solid rgba($detail-color, .7);
+    div {
+      padding: 1rem;
+    }
+    div:first-of-type {
+      flex-basis: 70%;
+      border-right: 1px solid rgba($detail-color, .7);
+      span:last-of-type {
+        color: #bafd9c;
+      }
+    }
+    div:last-of-type {
+      flex-basis: 30%;
+    }
+  }
+}
+
+.description {
+  p {
+    margin-bottom: 1rem;
+    font-size: .9rem;
+    font-weight: 600;
+    letter-spacing: .02em;
+    line-height: 1.4em;
+    color: rgba($black, .6);
+  }
+  p:first-of-type {
+    color: rgba($black, .8);
+  }
+  p:only-of-type {
+    color: rgba($black, .6);
+  }
+}
+
+.adv {
+  flex-basis: 30%;
+}
+
+// Comic info section
+.comic-info {
+  padding: 2rem;
+  background-color: $comic-info-color;
+  border-top: 1px solid rgba($black, .1);
+  @for $i from 1 through 6 {
+    h#{$i}{
+      color: $detail-color;
+    }
+  }
+}
+
+.info {
+  flex-basis: 45%;
+  font-weight: 600;
+  .info-box {
+    padding: 1rem 0;
+    color: rgba($black, .7);
+    border-top: 1px solid rgba($black, .1);
+    &.highlight {
+      color: #1db2dc;
+    }
+    &:last-of-type {
+      border-bottom: 1px solid rgba($black, .1);
+    }
+    h5 {
+      flex-basis: 35%;
+    }
+    span {
+      font-size: .9rem;
+    }
+  }
+}
