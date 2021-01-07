@@ -24,6 +24,10 @@ body {
   display: flex;
 }
 
+.f-wrap {
+  flex-wrap: wrap;
+}
+
 .jc-center {
   justify-content: center;
 }
@@ -192,6 +196,10 @@ body {
   text-align: center;
 }
 
+img {
+  max-width: 100%;
+}
+
 ul {
   list-style: none;
 }
@@ -231,4 +239,16 @@ ul {
   position: absolute;
   bottom: 15px;
   z-index: 2;
+}
+
+.home-main {
+  background-color: #1c1c1c;
+}
+.home-main .comic-list {
+  padding: 1rem;
+}
+.home-main .comic-list .comic-item {
+  margin: 1%;
+  max-width: 13%;
+  overflow-wrap: break-word;
 }

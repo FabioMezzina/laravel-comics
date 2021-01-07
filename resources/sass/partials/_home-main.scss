@@ -1,0 +1,11 @@
+.home-main {
+  background-color: $secondary-color;
+  .comic-list {
+    padding: 1rem;
+    .comic-item {
+      margin: 1%;
+      max-width: 13%;
+      overflow-wrap: break-word;
+    }
+  }
+}

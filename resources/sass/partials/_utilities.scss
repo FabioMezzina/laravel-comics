@@ -3,6 +3,10 @@
   display: flex;
 }
 
+.f-wrap {
+  flex-wrap: wrap;
+}
+
 .jc-center {
   justify-content: center;
 }
@@ -49,6 +53,11 @@
 // Text utilities
 .text-center {
   text-align: center;
+}
+
+// Image responsive
+img {
+  max-width: 100%;
 }
 
 // Other
