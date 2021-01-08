@@ -22,10 +22,13 @@
   }
   .main-menu li {
     margin: 0 10px;
+    font-weight: 700;
     a {
-      font-size: .95rem;
-      font-weight: 600;
-      color: $secondary-color;
+      font-size: .9rem;
+      color: rgba($secondary-color, .9);
+      i {
+        color: $brand-color;
+      }
     }
   }
   .search-bar {

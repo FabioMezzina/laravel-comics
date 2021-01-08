@@ -64,5 +64,45 @@
       </div>
     </div>
   </section>
+  
+  {{-- shop navbar --}}
+  <nav class="comic-shop-nav">
+    <div class="container-small">
+      <ul class="flex">
+        <li>
+          <a href="#">
+            <span>DIGITAL COMICS</span>
+            <div class="wrapper">
+              <img src="{{ asset('images/digital.png') }}" alt="">
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span>SHOP DC</span>
+            <div class="wrapper">
+              <img src="{{ asset('images/shop.png') }}" alt="">
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span>COMIC SHOP LOCATOR</span>
+            <div class="wrapper">
+              <img src="{{ asset('images/locator.png') }}" alt="">
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span>SUBSCRIPTIONS</span>
+            <div class="wrapper">
+              <img src="{{ asset('images/subscription.png') }}" alt="">
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </main>
 @endsection

@@ -48,7 +48,7 @@
 
 // Comic info section
 .comic-info {
-  padding: 2rem;
+  padding: 2rem 1rem 6rem;
   background-color: $comic-info-color;
   border-top: 1px solid rgba($black, .1);
   @for $i from 1 through 6 {
@@ -76,6 +76,36 @@
     }
     span {
       font-size: .9rem;
+    }
+  }
+}
+
+// shop navbar
+.comic-shop-nav {
+  background-color: $comic-info-color;
+  border-top: 1px solid rgba($black, .1);
+  li {
+    flex-basis: 22%;
+    border-left: 1px solid rgba($black, .1);
+    &:last-of-type {
+      border-right: 1px solid rgba($black, .1);
+    }
+    a {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem;
+      font-size: .7rem;
+      font-weight: 700;
+      color: rgba($black, .5);
+      span {
+        flex-basis: 70%;
+      }
+      .wrapper {
+        flex-basis: 20%;
+      }
+      img {
+        filter: invert(0.2);
+      }
     }
   }
 }

@@ -1,0 +1,112 @@
+.footer {
+  position: relative;
+  &::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: $comic-info-color;
+    content: '';
+  }
+}
+
+// Top footer
+.top-footer {
+  padding: 9rem 0;
+  background-image: url('../images/logo-footer.png'), url('../images/footer-bg.jpg') ;
+  background-position: 80%, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 28%, cover;
+  .footer-menu {
+    h3 {
+      margin-bottom: 1rem;
+      color: $white;
+    }
+    a {
+      line-height: 1.6;
+      font-size: .8rem;
+      font-weight: 600;
+      color: rgba($white, .5);
+      transition: .1s;
+      &:hover {
+        color: $white;
+      }
+    }
+    .menu-col {
+      margin-right: 2rem;
+    }
+  }
+}
+
+// Rights reserved
+.rights {
+  font-size: .8rem;
+  color: rgba($white, .5);
+
+  a {
+    color: $brand-color;
+    transition: .1s;
+    &:hover {
+      color: $white;
+    }
+  }
+}
+
+// Bottom footer
+.bottom-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  // cancellare l'elemento bianco dal main per metterlo qui come pseudo
+  // // ci serve per coprire da sopra il logo DC grande
+  padding: 1.5rem 0;
+  background-color: rgb(48, 48, 48);
+  .sign-up-btn,
+  .follow-us {
+    align-self: center;
+  }
+  .sign-up-btn {
+    padding: 1rem .5rem;
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+    color: $white;
+    background-color: transparent;
+    border: 2px solid $brand-color;
+    cursor: pointer;
+    transition: .1s;
+    &:hover {
+      color: $brand-color;
+    }
+  }
+}
+
+.follow-us {
+  h3 {
+    color: $brand-color;
+  }
+  li {
+    margin-left: 2rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    background-color: #797979;
+  }
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 1.4rem;
+    color: rgb(48, 48, 48);
+    border-radius: 50%;
+    transition: .1s;
+    &:hover {
+      color: $brand-color;
+    }
+    i {
+      display: block;
+    }
+  }
+}

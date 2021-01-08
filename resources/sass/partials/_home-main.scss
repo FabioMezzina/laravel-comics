@@ -1,12 +1,8 @@
 .home-main {
+  padding-bottom: 1rem;
   background-color: $secondary-color;
-  .comic-list {
-    padding: 1rem;
-    .comic-item {
-      margin: 1%;
-      max-width: 13%;
-      overflow-wrap: break-word;
-    }
+  a {
+    color: $white;
   }
 }
 
@@ -33,6 +29,56 @@
       position: absolute;
       bottom: 15px;
       z-index: 2;
+    }
+  }
+}
+
+// Comics list
+.comic-list {
+  padding: 1rem;
+  .comic-item {
+    margin: 1%;
+    max-width: 13%;
+    overflow-wrap: break-word;
+    h3 {
+      font-size: .9rem;
+    }
+  }
+}
+
+// Load more button
+.btn-load-more {
+  display: block;
+  margin: 0 auto;
+  padding: .5rem 3rem;
+  color: $white;
+  font-weight: 600;
+  background-color: $brand-color;
+  border: 0;
+  cursor: pointer;
+}
+
+// shop navbar
+.main-shop-nav {
+  padding: 2.5rem 1rem;
+  background-color: $brand-color;
+  ul li {
+    flex-basis: 18%;
+    a {
+      display: flex;
+      align-items: center;
+      color: $white;
+      .wrapper {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        margin-right: 1rem;
+        flex-basis: 20%;
+      }
+      span {
+        font-size: .7rem;
+        font-weight: 600;
+      }
     }
   }
 }

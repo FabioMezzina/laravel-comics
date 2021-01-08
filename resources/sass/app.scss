@@ -1,3 +1,8 @@
+// FontAwesome
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
 // Variables
 @import 'partials/vars';
 // Commons
@@ -10,3 +15,5 @@
 @import 'partials/home-main';
 // Comic main content
 @import 'partials/comic-main';
+// Footer
+@import 'partials/footer';

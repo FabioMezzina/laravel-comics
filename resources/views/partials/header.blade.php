@@ -7,7 +7,7 @@
           <a href="#">DC POWER VISA</a>
         </li>
         <li class="ml-5">
-          <a href="#">ADDITIONAL DC SITES</a>
+          <a href="#">ADDITIONAL DC SITES <i class="fas fa-caret-down"></i></a>
         </li>
       </ul>
     </div>
@@ -70,7 +70,7 @@
         </li>
         <li>
           <a href="#">
-            SHOP
+            SHOP <i class="fas fa-caret-down"></i>
           </a>
         </li>
       </ul>

@@ -3,6 +3,10 @@
   display: flex;
 }
 
+.fd-col {
+  flex-direction: column;
+}
+
 .f-wrap {
   flex-wrap: wrap;
 }
@@ -60,7 +64,7 @@
 // Image responsive
 img {
   max-width: 100%;
-  height: auto;
+  max-height: 100%;
 }
 
 // Other
